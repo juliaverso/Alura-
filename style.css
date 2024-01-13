@@ -75,6 +75,7 @@ body{
 .computador{
     margin: 4rem;
     width: 60%;
+
 }
 
 .titulo_secundario{
@@ -97,6 +98,7 @@ body{
     align-items: center;
     display: grid;
     grid-template-columns: 50% 50%;
+    padding: auto;
 }
 
 .terceiro_paragrafo{
@@ -117,4 +119,80 @@ body{
 .terceira_imagem{
     margin: 4rem;
     width: 60%;
+}
+
+.quarta{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+}
+
+.quarto_texto{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+.quarta_imagem{
+    width: 90%;
+}
+.quarto_titulo{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.quarto_subtitulo{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.dispositivos{
+    text-align: center;
+
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.dispositivos_titulo{
+    font-size: 3rem;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 3%;
+}
+.dispositivos_lista_item{
+    
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    line-height: 120%;
+    font-size: 2rem;
+}
+footer{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+
+}
+.lista_link a{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 1em;
+    font-weight: 400;
+}
+
+.paragrafo_rodape{
+    margin: 1em 0;
+    color: #C0C0C0;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.paragrafo_um_rodape{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
